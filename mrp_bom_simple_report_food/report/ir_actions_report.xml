@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2023 - Today: GRAP (http://www.grap.coop)
+@author: Quentin DUPONT (quentin.dupont@grap.coop)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+-->
+<odoo>
+    <record id="mrp_bom_simple_report_food_action" model="ir.ui.view">
+        <field name="inherit_id" ref="mrp_bom_simple_report.mrp_bom_simple_report_action"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='paperformat_id']" position="after">
+              <field name="orientation">Landscape</field>
+          </xpath>
+        </field>
+    </record>
+</odoo>
