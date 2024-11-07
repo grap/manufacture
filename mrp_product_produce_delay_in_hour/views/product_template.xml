@@ -22,6 +22,7 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
             </xpath>
             <xpath expr="//field[@name='produce_delay']" position="attributes">
                 <attribute name="readonly">1</attribute>
+                <attribute name="force_save">1</attribute>
             </xpath>
         </field>
     </record>
