@@ -29,3 +29,12 @@ $bom-simple-report-violet: #6c5ce7;
 .smaller-font-size {
     width: $bom-simple-report-font-size-small;
 }
+
+.line_section {
+    background-color: #dddddd;
+    font-weight: bold;
+}
+
+.line_note {
+    font-style: italic;
+}
